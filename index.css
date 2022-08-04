@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar ul {
+    background-color: rgb(9, 12, 157);
+    display: flex;
+    margin: 0px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    list-style: none;
+}
+
+.home {
+    height: 590px;
+    margin-top: 0px;
+
+}
+
+.home h1 {
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 113px;
+}
+
+.home h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.home p {
+    color: rgb(9, 12, 157);
+    padding: 7rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.home::before {
+    height: 100%;
+    z-index: -4;
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    opacity: .4;
+    content: "";
+    background: url(images/bruno-kelzer-LvySG1hvuzI-unsplash.jpg) no-repeat center center/cover;
+}
+
+@keyframes srishti {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 700px;
+        top: 0px;
+    }
+
+}
+
+#box {
+    display: flex;
+    position: relative;
+    animation-name: srishti;
+    height: 100px;
+    animation-duration: 30s;
+}
+
+#box img {
+    height: 100px;
+    width: 100px;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}

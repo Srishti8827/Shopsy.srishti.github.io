@@ -1,0 +1,74 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(221, 222, 241);
+}
+
+.navbar ul {
+    background-color: rgb(9, 12, 157);
+    display: flex;
+
+    margin: 0px;
+}
+
+li {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box {
+    background-color: rgb(241, 235, 235);
+    width: 400px;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 170px 170px;
+
+}
+
+.box img {
+
+    padding: 7px;
+}
+
+.box:hover {
+    animation-name: srishti;
+    transition-duration: 1s;
+    transform: scale(1.1);
+
+}
+
+.box h4 {
+    display: flex;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+}
+
+.box h5 {
+    font-size: 1.1rem;
+    margin-left: 4rem;
+    color: red;
+}
+
+.box img {
+    height: 170px;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}

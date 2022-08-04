@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar ul {
+    background-color: rgb(9, 12, 157);
+    display: flex;
+    margin: 0px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    list-style: none;
+}
+
+.form::before {
+    content: "";
+    height: 540px;
+    z-index: -4;
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.6;
+    background: url(images/pexels-cottonbro-3737611.jpg) no-repeat center center/cover;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+
+}
+
+.form textarea {
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form input {
+    width: 300px;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}

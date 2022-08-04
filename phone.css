@@ -1,0 +1,59 @@
+/* for navigation bar */
+.navbar ul {
+    margin: 0px;
+    padding: 1.2rem;
+    flex-direction: column;
+}
+
+.navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 13px;
+    padding-bottom: 8px;
+}
+
+/* home-index */
+.home {
+    height: 470px;
+}
+
+.home::before {
+    width: 100%;
+    height: 470px;
+}
+
+.home h1 {
+    font-size: 33px;
+    padding: 10px;
+}
+
+.home p {
+    font-size: 13px;
+    padding: 3px 68px;
+}
+
+#box img {
+    height: 50px;
+    width: 50px;
+}
+
+#box {
+    overflow: hidden;
+    height: 60px;
+}
+
+#box h2 {
+    font-size: 13px;
+}
+
+/* item */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* form */
+.form {
+    overflow: hidden;
+
+}
